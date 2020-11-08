@@ -17,4 +17,17 @@
         <property name="basename" value="classpath:messages" />
         <property name="defaultEncoding" value="ISO-8859-1" />
     </bean>
+    
+        <context:component-scan base-package="com.developpez.rpouiller" />
+
+    <bean
+        class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix">
+            <value>/vues/</value>
+        </property>
+        <property name="suffix">
+            <value>.jsp</value>
+        </property>
+    </bean>
+    
 </beans>
