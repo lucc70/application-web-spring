@@ -8,6 +8,7 @@
     </head>
     <body>
         <spring:message code="libelle.bonjour.lemonde" arguments="${personne}"/>
+        <!-- renvoie vers messages_fr.properties VIA spring:message code= et lié à BonjourController.java VIA arguments= -->
     </body>
 </html>
 

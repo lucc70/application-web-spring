@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 @RequestMapping("/bonjour")
+//@RequestMapping  dis d'aller mapper dans : TOUT CE QUI comporte bonjour
 public class BonjourController {
 
     @RequestMapping(method = RequestMethod.GET)
